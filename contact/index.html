@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Bjorn International Brokerage</title>
+<meta name="description" content="Contact Bjorn International Brokerage for off-market sales, new construction and yacht management.">
+<meta property="og:title" content="Contact | Bjorn International Brokerage">
+<meta property="og:description" content="Contact Bjorn International Brokerage for off-market sales, new construction and yacht management.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#080B0E">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-head" id="head">
+  <div class="head-inner">
+    <a href="../" class="mark" aria-label="Bjorn International Brokerage, home">
+      <b>BJORN</b>
+      <span>INTERNATIONAL BROKERAGE</span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="../about/">About</a>
+      <a href="../new-construction/">New Construction</a>
+      <a href="../off-market/">Off Market</a>
+      <a href="../yacht-management/">Management</a>
+      <a href="../contact/" aria-current="page">Contact</a>
+      <a class="btn" href="../contact/">Private enquiry</a>
+      <span class="clock" aria-label="Local time in Dubai">Dubai <em id="clock">--:--</em></span>
+    </nav>
+    <button class="menu-btn" id="menuOpen" aria-expanded="false" aria-controls="drawer">Menu</button>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" aria-hidden="true" inert>
+  <button class="close" id="menuClose">Close</button>
+  <a href="../">Home</a>
+  <a href="../about/">About</a>
+  <a href="../new-construction/">New Construction</a>
+  <a href="../off-market/">Off Market & Distressed Sales</a>
+  <a href="../yacht-management/">Yacht Management</a>
+  <a href="../contact/" aria-current="page">Contact</a>
+  <div class="drawer-contact">Kasper Jakobsen<a href="mailto:kasper@bjorn.ae?subject=Private%20enquiry">kasper@bjorn.ae</a><a href="tel:+971586887400">+971 58 688 7400</a><a href="https://wa.me/971586887400?text=Hello%20Kasper%2C%20I%27d%20like%20to%20discuss%20a%20private%20enquiry." target="_blank" rel="noopener">WhatsApp</a></div>
+</div>
+
+<main id="top">
+  <section class="page-hero">
+    <canvas class="sea" data-hz=".22" data-hzm=".2" aria-hidden="true"></canvas><div class="ph-shade"></div>
+    <div class="wrap" id="main">
+      <div><nav class="crumb" aria-label="Breadcrumb"><a href="../">Home</a><span aria-hidden="true">/</span><span>Contact</span></nav>
+        <h1><span><i>Every conversation</i></span><span><i>starts privately.</i></span></h1>
+        <p class="lead">Enquiries are handled personally and in confidence.</p>
+        </div>
+    </div>
+  </section>
+
+  <section class="band" id="contact" style="padding-top:clamp(64px,8vw,110px)">
+    <div class="wrap contact-grid">
+      <div class="channels">
+        <div class="person"><b>Kasper Jakobsen</b><span>Owner / Managing Director</span></div>
+        <div class="lines">
+          <div class="cline"><span class="k">Email</span><a class="v" href="mailto:kasper@bjorn.ae?subject=Private%20enquiry">kasper@bjorn.ae</a><button class="copy-btn" data-copy="kasper@bjorn.ae">Copy</button></div>
+          <div class="cline"><span class="k">Phone</span><a class="v" href="tel:+971586887400">+971 58 688 7400</a><button class="copy-btn" data-copy="+971586887400">Copy</button></div>
+          <div class="cline"><span class="k">WhatsApp</span><a class="v" href="https://wa.me/971586887400?text=Hello%20Kasper%2C%20I%27d%20like%20to%20discuss%20a%20private%20enquiry." target="_blank" rel="noopener">Message Kasper</a><span></span></div>
+        </div>
+        <p class="sr" aria-live="polite" id="copied"></p>
+        <p class="hq"><strong>Bjorn International Brokerage</strong>Headquarters: Dubai, United Arab Emirates</p>
+      </div>
+
+      <form class="form" id="enquiry" data-endpoint="" novalidate>
+        <h2>Private enquiry</h2>
+        <p>Tell us briefly what you have in mind. Kasper replies personally.</p>
+        <div class="fields">
+          <div class="field"><label for="f-name">Name <em>*</em></label><input id="f-name" name="name" autocomplete="name" required><span class="err" aria-live="polite"></span></div>
+          <div class="field"><label for="f-email">Email <em>*</em></label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err" aria-live="polite"></span></div>
+          <div class="field"><label for="f-phone">Phone or WhatsApp</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-interest">Interest</label>
+            <select id="f-interest" name="interest">
+              <option value="" selected>Choose a topic</option>
+              <option value="off-market">Off-market & distressed sales</option>
+              <option value="new-construction">New construction & build positions</option>
+              <option value="yacht-management">Yacht management</option>
+              <option value="other">Something else</option>
+            </select></div>
+          <div class="field full"><label for="f-message">Message <em>*</em></label><textarea id="f-message" name="message" required></textarea><span class="err" aria-live="polite"></span></div>
+          <div class="hp" aria-hidden="true"><label for="f-company">Company</label><input id="f-company" name="company" tabindex="-1" autocomplete="off"></div>
+        </div>
+        <div class="form-foot">
+          <small>Your details are used only to respond to your enquiry.</small>
+          <button class="btn" type="submit">Send enquiry</button>
+        </div>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<nav class="dock" id="dock" aria-label="Quick contact">
+  <a href="mailto:kasper@bjorn.ae?subject=Private%20enquiry">Email</a>
+  <a href="https://wa.me/971586887400?text=Hello%20Kasper%2C%20I%27d%20like%20to%20discuss%20a%20private%20enquiry." target="_blank" rel="noopener">WhatsApp</a>
+  <a href="tel:+971586887400">Call</a>
+</nav>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a href="../" class="mark" aria-label="Bjorn International Brokerage, home"><b>BJORN</b><span>INTERNATIONAL BROKERAGE</span></a>
+      <address>Global yacht brokerage & management<br>Headquarters: Dubai, UAE<br><a href="mailto:kasper@bjorn.ae">kasper@bjorn.ae</a> · <a href="tel:+971586887400">+971 58 688 7400</a> · <a href="https://wa.me/971586887400?text=Hello%20Kasper%2C%20I%27d%20like%20to%20discuss%20a%20private%20enquiry." target="_blank" rel="noopener">WhatsApp</a></address>
+      <nav aria-label="Footer">
+        <a href="../about/">About</a><a href="../new-construction/">New Construction</a><a href="../off-market/">Off Market & Distressed Sales</a><a href="../yacht-management/">Yacht Management</a><a href="../contact/">Contact</a>
+      </nav>
+    </div>
+    <p class="copy">© 2026 Bjorn International Brokerage. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="../assets/site.js"></script>
+</body>
+</html>
