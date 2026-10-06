@@ -9,10 +9,12 @@
 <meta property="og:description" content="A global yacht brokerage and management house for vessels of 50–120 metres. Off-market and distressed sales, new-build positions, new construction and yacht management.">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#080B0E">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <meta name="robots" content="noindex, nofollow">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" href="assets/fonts/cormorant-garamond-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/hero-night-m.webp" media="(max-width: 640px)">
+<link rel="preload" as="image" imagesrcset="assets/img/hero-night-1400.webp 1400w, assets/img/hero-night.webp 2400w" imagesizes="100vw" media="(min-width: 641px)">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
@@ -20,7 +22,7 @@
 
 <header class="site-head" id="head">
   <div class="head-inner">
-    <a href="./" class="mark" aria-label="Bjorn International Brokerage, home">
+    <a href="./" class="mark">
       <b>BJORN</b>
       <span>INTERNATIONAL BROKERAGE</span>
     </a>
@@ -53,7 +55,7 @@
   <section class="hero" aria-label="Introduction">
     <picture class="hero-media">
       <source media="(max-width: 640px)" srcset="assets/img/hero-night-m.webp" width="900" height="1776">
-      <img src="assets/img/hero-night.webp" alt="A superyacht at night, seen from directly above" width="2400" height="1216" fetchpriority="high">
+      <img src="assets/img/hero-night.webp" srcset="assets/img/hero-night-1400.webp 1400w, assets/img/hero-night.webp 2400w" sizes="100vw" alt="A superyacht at night, seen from directly above" width="2400" height="1216" fetchpriority="high">
     </picture>
     <div class="hero-copy wrap" id="main">
       <h1><span><i>Private yacht transactions,</i></span><span><i>handled privately.</i></span></h1>
@@ -82,7 +84,7 @@
   </section>
 
   <figure class="still">
-    <img src="assets/img/dusk-deck.webp" alt="Aft decks of a superyacht lit at dusk, seen through foliage" width="1600" height="1200">
+    <img src="assets/img/dusk-deck.webp" srcset="assets/img/dusk-deck-800.webp 800w, assets/img/dusk-deck.webp 1600w" sizes="100vw" loading="lazy" decoding="async" alt="Aft decks of a superyacht lit at dusk, seen through foliage" width="1600" height="1200">
   </figure>
 
   <section class="project">
@@ -199,7 +201,7 @@
           </div>
         </article>
         <article class="svc-card" >
-          <div class="svc-vis"><img src="assets/img/stern-night.webp" alt="Stern of a superyacht at night, pool and aft decks lit" width="800" height="1073" decoding="async"></div>
+          <div class="svc-vis"><img src="assets/img/stern-night.webp" srcset="assets/img/stern-night-480.webp 480w, assets/img/stern-night.webp 800w" sizes="(max-width: 640px) 100vw, (max-width: 1020px) 50vw, 33vw" loading="lazy" decoding="async" alt="Stern of a superyacht at night, pool and aft decks lit" width="800" height="1073" decoding="async"></div>
           <div class="svc-body">
             <h3>Yacht Management</h3>
             <p>Crew, technical, financial and operational management for yachts from 30 to 80 metres, from builders including Van der Valk, San Lorenzo, Amels and Sunseeker.</p>
@@ -252,7 +254,7 @@
 <footer>
   <div class="wrap">
     <div class="foot">
-      <a href="./" class="mark" aria-label="Bjorn International Brokerage, home"><b>BJORN</b><span>INTERNATIONAL BROKERAGE</span></a>
+      <a href="./" class="mark"><b>BJORN</b> <span>INTERNATIONAL BROKERAGE</span></a>
       <address>Global yacht brokerage & management<br>Headquarters: Dubai, UAE<br><a href="mailto:kasper@bjorn.ae">kasper@bjorn.ae</a> · <a href="tel:+971586887400">+971 58 688 7400</a> · <a href="https://wa.me/971586887400?text=Hello%20Kasper%2C%20I%27d%20like%20to%20discuss%20a%20private%20enquiry." target="_blank" rel="noopener">WhatsApp</a></address>
       <nav aria-label="Footer">
         <a href="about/">About</a><a href="new-construction/">New Construction</a><a href="off-market/">Off Market & Distressed Sales</a><a href="yacht-management/">Yacht Management</a><a href="contact/">Contact</a>
