@@ -5,3 +5,4 @@
 @media (max-width:640px){.mark img{height:28px}.foot .mark img{width:150px}}
 .contact-grid>*{min-width:0}
 .field input,.field select,.field textarea{width:100%;min-width:0}.fields>*{min-width:0}
+.drawer.open{transition:opacity .4s,visibility 0s}
