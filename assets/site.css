@@ -6,3 +6,4 @@
 .contact-grid>*{min-width:0}
 .field input,.field select,.field textarea{width:100%;min-width:0}.fields>*{min-width:0}
 .drawer.open{transition:opacity .4s,visibility 0s}
+.still.wide,.still.wide img{height:auto;max-height:none}.still.wide img{aspect-ratio:1600/666;object-position:50% 60%}
